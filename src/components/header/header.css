@@ -1,0 +1,29 @@
+#header-container {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFAF2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header_logo {
+  height: 40px;
+  margin-left: 35px;
+}
+
+.header_link {
+  font-weight: 400;
+  color: #3C3C3C;
+  font-size: 17px;
+  margin: 0px 25px;
+  margin-top: 7px;
+}
+
+#header_right_side {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}

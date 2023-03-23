@@ -1,0 +1,33 @@
+.white_button {
+  color: #3C3C3C;
+  width: 200px;
+  height: 40px;
+  left: 1201.2px;
+  top: 34px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-shadow: 0px 6px 0px #000000;
+  border-radius: 100px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+#white_button:hover{
+  cursor: pointer;
+}
+
+.landing_fold_button {
+  background-color: red;
+}
+
+#landing_fold {
+  height: 50px;
+  width: 300px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#landing_fold:hover {
+  cursor: pointer;
+}
+
