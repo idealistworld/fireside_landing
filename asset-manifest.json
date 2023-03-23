@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fireside_landing/static/css/main.582116a0.css",
+    "main.js": "/fireside_landing/static/js/main.0ba46721.js",
+    "static/js/787.c000c419.chunk.js": "/fireside_landing/static/js/787.c000c419.chunk.js",
+    "static/media/join_community_background.png": "/fireside_landing/static/media/join_community_background.f88f951ef64349dc02db.png",
+    "static/media/banner_background.png": "/fireside_landing/static/media/banner_background.17f3940cab1cef74d67c.png",
+    "static/media/how_it_works_card_background.png": "/fireside_landing/static/media/how_it_works_card_background.17f3940cab1cef74d67c.png",
+    "static/media/fireside.png": "/fireside_landing/static/media/fireside.200a32c41922e13d6071.png",
+    "static/media/computer_screen.png": "/fireside_landing/static/media/computer_screen.1abad7e08d3baf64dbc5.png",
+    "static/media/sponsor_list.png": "/fireside_landing/static/media/sponsor_list.07889f3aa89edbb577d5.png",
+    "static/media/logo.svg": "/fireside_landing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fireside_landing/index.html",
+    "main.582116a0.css.map": "/fireside_landing/static/css/main.582116a0.css.map",
+    "main.0ba46721.js.map": "/fireside_landing/static/js/main.0ba46721.js.map",
+    "787.c000c419.chunk.js.map": "/fireside_landing/static/js/787.c000c419.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.582116a0.css",
+    "static/js/main.0ba46721.js"
+  ]
+}
