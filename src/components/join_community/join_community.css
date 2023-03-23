@@ -1,0 +1,42 @@
+#join_community_container {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  background-image: url("./join_community_background.png");
+  color: #3C3C3C;
+  padding: 50px 0px;
+}
+
+#community_title {
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.community_stats {
+  font-size: 23px;
+  font-weight: 400;
+  color: #848484;
+}
+
+.community_stats_metric {
+  color: #3C3C3C;
+  font-weight: 700;
+}
+
+#commmunity_stats_container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+#community_blurb_container {
+  width: 86vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#fireside_community_photo {
+  height: 250px;
+}

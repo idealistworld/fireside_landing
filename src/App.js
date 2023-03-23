@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/header';
+import Landing_Fold from './components/landing_fold/landing_fold';
+import Sponsor_List from './components/sponsor_list/sponsor_list';
+import How_It_Works from './components/how_it_works/how_it_works';
+import Join_Community from './components/join_community/join_community';
+import Footer from './components/footer/footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <div className = "page_content">
+        <Landing_Fold></Landing_Fold>
+        <Sponsor_List></Sponsor_List>
+        <How_It_Works></How_It_Works>
+        <Join_Community></Join_Community>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

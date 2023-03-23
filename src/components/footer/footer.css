@@ -1,0 +1,13 @@
+#footer_container {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_link {
+  color: #848484;
+  margin: 0 30px;
+  font-weight: 300;
+}
