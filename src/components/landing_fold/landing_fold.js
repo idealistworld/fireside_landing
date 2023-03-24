@@ -14,7 +14,7 @@ function Landing_Fold(props) {
       <div id="landing_fold_left">
         <h1 id="landing_title_text">
           <span Style="font-weight: 800">Uncover</span> the world
-          <br></br> of<span Style="font-weight: 800">Venture Capital</span>
+          <br></br> of <span Style="font-weight: 800">Venture Capital</span>
           <span id="title_subtext">*while still having fun</span>
         </h1>
         <div id="landing_fold_buttons">

@@ -39,7 +39,16 @@
     margin-left: 30px;
   }
 
-  .header_link {
+  .landing_header_button {
     display: none;
+  }
+
+  .header_link {
+    font-weight: 400;
+    color: #3C3C3C;
+    font-size: 17px;
+    margin: 0px 25px;
+    margin-top: 11px;
+    text-decoration: none;
   }
 }

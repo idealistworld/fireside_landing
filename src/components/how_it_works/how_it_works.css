@@ -77,6 +77,17 @@
 
 
 @media only screen and (max-width: 600px) {
+
+  #how_it_works_left {
+    width: 350px;
+    text-align: left;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
   #how_it_works_title {
     font-size: 45px;
     margin: 0;
@@ -97,5 +108,5 @@
     padding: 0px 30px;
   }
 
-  
+
 }

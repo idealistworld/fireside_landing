@@ -12,12 +12,8 @@
   box-sizing: border-box;
 }
 
-#white_button:hover{
+#white_button:hover {
   cursor: pointer;
-}
-
-.landing_fold_button {
-  background-color: red;
 }
 
 #landing_fold {
@@ -30,4 +26,10 @@
 
 #landing_fold:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #Login {
+    display: none;
+  }
 }
