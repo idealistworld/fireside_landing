@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <div className = "page_content">
+      <div className="page_content">
         <Landing_Fold></Landing_Fold>
         <Sponsor_List></Sponsor_List>
         <How_It_Works></How_It_Works>

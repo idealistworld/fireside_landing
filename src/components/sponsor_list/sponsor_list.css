@@ -3,3 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  #sponsor_list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}

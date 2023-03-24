@@ -20,10 +20,26 @@
   font-size: 17px;
   margin: 0px 25px;
   margin-top: 7px;
+  text-decoration: none;
 }
 
 #header_right_side {
   display: flex;
   align-items: center;
   margin-right: 30px;
+}
+
+#header_right_side a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #header_logo {
+    height: 40px;
+    margin-left: 30px;
+  }
+
+  .header_link {
+    display: none;
+  }
 }

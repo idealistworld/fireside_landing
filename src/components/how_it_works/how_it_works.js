@@ -7,21 +7,26 @@ function How_It_Works(props) {
 
   const [card_title, set_card_title] = useState("This is First");
   const [card_paragraph, set_card_paragraph] = useState("First.  This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it. This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it.");
-  
+
+  function scrollView() {
+    const mainRoot = document.getElementById("sponsor_list");
+    mainRoot.scrollIntoView({ behavior: "smooth" });
+  }
 
   const card1 = () => {
     set_card_title("This is First")
     set_card_paragraph("First.  This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it. This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it.")
+    scrollView() 
     document.querySelector(".how_it_works_selector1").style.color = "black"
     document.querySelector(".how_it_works_selector2").style.color = "#838383"
     document.querySelector(".how_it_works_selector3").style.color = "#838383"
     document.querySelector(".how_it_works_selector4").style.color = "#838383"
-    
   }
 
   const card2 = () => {
     set_card_title("This is Second")
     set_card_paragraph("Second.  This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it. This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it.")
+    scrollView() 
     document.querySelector(".how_it_works_selector1").style.color = "#838383"
     document.querySelector(".how_it_works_selector2").style.color = "black"
     document.querySelector(".how_it_works_selector3").style.color = "#838383"
@@ -31,6 +36,7 @@ function How_It_Works(props) {
   const card3 = () => {
     set_card_title("This is Third")
     set_card_paragraph("Third.  This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it. This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it.")
+    scrollView() 
     document.querySelector(".how_it_works_selector1").style.color = "#838383"
     document.querySelector(".how_it_works_selector2").style.color = "#838383"
     document.querySelector(".how_it_works_selector3").style.color = "black"
@@ -40,6 +46,7 @@ function How_It_Works(props) {
   const card4 = () => {
     set_card_title("This is Fourth")
     set_card_paragraph("Fourth.  This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it. This is some text explaining how the product works and all that.  It’s pretty cool and I think that you should use it.")
+    scrollView() 
     document.querySelector(".how_it_works_selector1").style.color = "#838383"
     document.querySelector(".how_it_works_selector2").style.color = "#838383"
     document.querySelector(".how_it_works_selector3").style.color = "#838383"
@@ -67,7 +74,7 @@ function How_It_Works(props) {
         </div>
       </div>
       <div id="how_it_works_right">
-        <How_It_Works_Card title={card_title} paragraph = {card_paragraph}></How_It_Works_Card>
+        <How_It_Works_Card title={card_title} paragraph={card_paragraph} id="how_it_works_card"></How_It_Works_Card>
       </div>
     </div>
   );

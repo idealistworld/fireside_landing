@@ -7,9 +7,9 @@ import White_Button from '../white_button/white_button';
 function Footer() {
   return (
     <div id = "footer_container">
-      <span className = "footer_link">Contact</span>
-      <span className = "footer_link">Partner</span>
-      <span className = "footer_link">Connect</span>
+      <a href = "https://www.linkedin.com/company/firesidefellows"><span className = "footer_link">LinkedIn</span></a>
+      <a href = "https://www.instagram.com/fireside.bio/"><span className = "footer_link">Instagram</span></a>
+      <a href = "https://twitter.com/FiresideBio"><span className = "footer_link">Twitter</span></a>
     </div>
   );
 }

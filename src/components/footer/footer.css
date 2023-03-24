@@ -10,4 +10,9 @@
   color: #848484;
   margin: 0 30px;
   font-weight: 300;
+  text-decoration: none;
+}
+
+#footer_container a {
+  text-decoration: none;
 }

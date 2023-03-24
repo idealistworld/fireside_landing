@@ -22,12 +22,12 @@
 
 #landing_fold {
   height: 50px;
-  width: 300px;
+  width: 200px;
   font-weight: 600;
   font-size: 18px;
+  margin-right: 20px;
 }
 
 #landing_fold:hover {
   cursor: pointer;
 }
-
